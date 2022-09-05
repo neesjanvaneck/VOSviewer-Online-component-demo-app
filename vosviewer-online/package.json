@@ -1,0 +1,54 @@
+{
+  "name": "vosviewer-online",
+  "version": "1.1.0",
+  "description": "React component package for integrating VOSviewer Online into your site or application.",
+  "author": "Nees Jan van Eck <ecknjpvan@cwts.leidenuniv.nl> (https://github.com/neesjanvaneck)",
+  "keywords": [
+    "VOSviewer Online",
+    "VOSviewer",
+    "bibliometric network",
+    "network visualization",
+    "network analysis",
+    "clustering",
+    "layout",
+    "React",
+    "React component"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/neesjanvaneck/VOSviewer-Online#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neesjanvaneck/VOSviewer-Online.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neesjanvaneck/VOSviewer-Online/issues"
+  },
+  "type": "module",
+  "main": "./index.js",
+  "dependencies": {
+    "autosuggest-highlight": "^3.3.4",
+    "d3": "^6.7.0",
+    "decode-uri-component": "^0.2.0",
+    "dompurify": "^2.4.0",
+    "java-random": "^0.4.0",
+    "leven-sort": "^4.0.0",
+    "lodash": "^4.17.21",
+    "networkanalysis-ts": "^1.0.0",
+    "papaparse": "^5.3.2",
+    "qrcode.react": "^1.0.1",
+    "qs": "^6.11.0",
+    "react-full-screen": "^1.1.1",
+    "react-resize-detector": "^7.1.2",
+    "use-debounce": "0.0.7"
+  },
+  "peerDependencies": {
+    "mobx": "^6.6.1",
+    "mobx-react-lite": "^3.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
